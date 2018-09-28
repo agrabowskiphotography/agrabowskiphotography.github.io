@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AG Photography</title>
+    <link href = "./style.css" type="text/css" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header id = "header" class = "flex-container">
+      <a href ="./index.html"><img id = "logo" src = "./logo.png" alt = "logo"/></a>
+      <nav>
+        <span><a class = "nav" href = "#about">About</a></span>
+        <span><a class = "nav" href = "#featured">Special Offers</a></span>
+        <span><a class = "nav" href = "#services">Services</a></span>
+        <span><a class = "nav" href = "./prints.html">Order Prints</a></span>
+        <span><a class = "nav" href = "./contact.html">Contact Us</a></span>
+      </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class = "main">
+
+      <!-- Mission Section -->
+      <div id = "about" class = "flex-container">
+        <div class = "content" align = "center">
+          <h2>About</h2>
+          <img width = "100px" src = "./logo.png" alt = "AGP"/>
+          <h4>Austin is a former high school Physics teacher who loves photography. If he's not taking pictures,
+             you can find him spending time with his wife Meaghan,
+             learning various programming languages, practicing archery, or playing video games.
+          </h4>
+          <p><a id = "bookButton"href ="./contact.html">Book Now</a></p>
+        </div>
+      </div>
+
+      <!-- Tea Section -->
+      <div id = "featured">
+        <h2>Special Offers</h2>
+        <h4>This Month's Special Offers</h4>
+        <div class = "flex-container items">
+          <div class = "item">
+            <img src = "./IMG_0700.jpg" alt = "Portraits"/>
+            <span>Back to School Portraits</span>
+            <p class = "pricing"><a href = "./pricing.html">View Pricing</a></p>
+          </div>
+          <div class = "item">
+            <img src = "./jay.jpg" alt = "Weddings"/>
+            <span>Fall Wedding Special</span>
+            <p class = "pricing"><a href = "./pricing.html">View Pricing</a></p>
+          </div>
+          <div class = "item">
+            <img src = "./IMG_07891.jpg" alt = "Engagements"/>
+            <span>Engagement Photos</span>
+            <p class = "pricing"><a href = "./pricing.html">View Pricing</a></p>
+          </div>
+          <div class = "item">
+            <img src = "./jerry.jpg" alt = "Headshots"/>
+            <span>Headshots</span>
+            <p class = "pricing"><a href = "./pricing.html">View Pricing</a></p>
+          </div>
+          <div class = "item">
+            <img src = "./00000604.jpg" alt = "Nature"/>
+            <span>Nature Print Sale</span>
+            <p class = "pricing"><a href = "./pricing.html">View Pricing</a></p>
+          </div>
+        </div>
+      </div>
+
+<!-- Services Section -->
+
+      <div id = "services">
+        <div id = "service-container">
+          <h2 id ="ourServices">Our Services</h2>
+          <div class = "flex-container items">
+            <div class = "item">
+              <h3>Portraits and Headshots</h3>
+              <h4>Get the professional look you've been after. Book a shoot for family portraits or headshots today.</h4>
+            </div>
+            <div class = "item">
+              <h3>Photoshoots</h3>
+              <h4>Aspiring model? We've got you covered. Competitive pricing for all photoshoots.</h4>
+            </div>
+            <div class = "item">
+              <h3>On Location Photography</h3>
+              <h4>Why come to us when we can come to you? We'll go anywhere. Well, almost anywhere.</h4>
+            </div>
+            <div class = "item">
+              <h3>Specialty Prints</h3>
+              <h4>Any photos we take can be edited and printed by us for a small fee. Just ask.</h4>
+            </div>
+            <div class = "item">
+              <h3>Wedding and Event Photography</h3>
+              <h4>Special day? Choose us to make lifelong memories. We'd be honored.</h4>
+            </div>
+          </div>
+      </div>
+    </div>
+
+      <!-- Slideshow Section -->
+      <div id = "slideshow">
+        <h2>Some of Our Work</h2>
+        <div class = "flex-container slideshow">
+          <div class = "slideshowContainer">
+            <div class = "slideshowPic fade">
+              <img width = "100%" src = "./00000352.JPG" alt = "tree"/>
+            </div>
+            <div class = "slideshowPic fade">
+              <img width = "100%" src = "./00000407.JPG" alt = "birds"/>
+            </div>
+            <div class = "slideshowPic fade">
+              <img width = "100%" src = "./00000455.JPG" alt = "jellyfish"/>
+            </div>
+            <div class = "slideshowPic fade">
+              <img width = "100%" src = "./00000471.JPG" alt = "couple"/>
+            </div>
+            <div class = "slideshowPic fade">
+              <img width = "100%" src = "./00000543.JPG" alt = "bird"/>
+            </div>
+            <div class = "slideshowPic fade">
+              <img width = "100%" src = "./IMG_07891.JPG" alt = "engagement"/>
+            </div>
+            <div class = "slideshowPic fade">
+              <img width = "100%" src = "./IMG_08121.JPG" alt = "portrait">
+            </div>
+            <div class = "slideshowPic fade">
+              <img width = "100%" src = "./IMG_2777.JPG" alt = "portrait">
+            </div>
+            <div class = "slideshowPic fade">
+              <img width = "100%" src = "./IMG_1913.JPG" alt = "butterfly">
+            </div>
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+          <div id = "gallery">
+            <div class = "thumbnail inGallery">
+              <img style = "width: 100%" src = "./00000352.JPG" alt = "tree" onclick = "currentSlide(1)"/>
+            </div>
+            <div class = "thumbnail inGallery">
+              <img style = "width: 100%" src = "./00000407.JPG" alt = "birds" onclick = "currentSlide(2)"/>
+            </div>
+            <div class = "thumbnail inGallery">
+              <img style = "width: 100%" src = "./00000455.JPG" alt = "jellyfish" onclick = "currentSlide(3)"/>
+            </div>
+            <div class = "thumbnail inGallery">
+              <img style = "width: 100%" src = "./00000471.JPG" alt = "couple" onclick = "currentSlide(4)"/>
+            </div>
+            <div class = "thumbnail inGallery">
+              <img style = "width: 100%" src = "./00000543.JPG" alt = "bird" onclick = "currentSlide(5)"/>
+            </div>
+            <div class = "thumbnail inGallery">
+              <img style = "width: 100%" src = "./IMG_07891.JPG" alt = "engagement" onclick = "currentSlide(6)"/>
+            </div>
+            <div class = "thumbnail">
+              <img style = "width: 100%" src = "./IMG_08121.JPG" alt = "portrait" onclick = "currentSlide(7)">
+            </div>
+            <div class = "thumbnail">
+              <img style = "width: 100%" src = "./IMG_2777.JPG" alt = "portrait" onclick = "currentSlide(8)">
+            </div>
+            <div class = "thumbnail">
+              <img style = "width: 100%" src = "./IMG_1913.JPG" alt = "butterfly" onclick = "currentSlide(9)">
+            </div>
+    <!--        <a class="prevGal" onclick="plusGallery(-1)">&#10094;</a>
+            <a class="nextGal" onclick="plusGallery(1)">&#10095;</a>-->
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Section -->
+      <div id = "contact">
+          <h2>AG Photography</h2>
+          <h2>Contact Us</h2>
+          <h5>Email: austin.s.grabowski@gmail.com</h5>
+          <h5>Phone: 631-482-4029</h5>
+          <h5>Set Up an Appointment Today!</h5>
+      </div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+      <h5>AG Photography 2018</h5>
+    </footer>
+  </body>
+  <script type="text/javascript" src = "./script.js"></script>
+</html>
