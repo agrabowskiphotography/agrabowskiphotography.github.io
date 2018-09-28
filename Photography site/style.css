@@ -1,0 +1,511 @@
+html{
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+body {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: seashell;
+    font-size: 22px;
+    text-align: center;
+    min-width: 800px;
+    word-spacing: 3px;
+}
+
+.content{
+  background-color:black;
+  width: 100%;
+  margin: auto;
+}
+
+.content h2, .content h4{
+  text-align: center;
+  max-width: 800px;
+}
+
+.flex-container{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.flex-container .locations{
+  padding-top: 5px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.items{
+  opacity: 1 !important;
+  z-index: 1 !important;
+}
+
+.item img{
+  height: 200px;
+  width: 300px;
+  margin: 10px;
+}
+
+.item span{
+  display: block;
+  padding:5px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.location{
+  width: 300px;
+  margin: 5px 20px;
+  opacity: 1;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  flex-basis: 280px;
+}
+
+
+.main{
+  padding-top: 62px;
+  opacity: 0.9;
+  width: auto;
+  margin: 0;
+}
+
+.main a{
+  padding:10px;
+  margin: 10px auto;
+}
+
+.nav{
+  padding:10px;
+}
+
+.nav:hover{
+  background-color:seashell;
+  color:black;
+  transition: 0.2s color linear, 0.2s background linear;
+}
+
+.pricing{
+  border: 2px solid seashell;
+  cursor: pointer;
+  font-size: 0.8rem;
+  width: 200px;
+  margin: 0% 19%;
+}
+
+.pricing:hover{
+  transition:0.2s color linear, 0.2s background linear;
+  background-color: seashell;
+  color: black;
+}
+
+.pricing a:hover{
+  color: black;
+  transition: 0.2s color linear;
+}
+
+.pricing a{
+  padding: 2px 40px;
+}
+
+.slideshow{
+  width: 100%;
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  .min-width: 1000px;
+}
+
+.slideshowContainer{
+  max-height: 666.66px;
+  overflow: hidden;
+}
+
+.thumbnail{
+  cursor: pointer;
+  float:left;
+  width: 10.7115%;
+  opacity: 0.6;
+  max-height: 74.0667px;
+  overflow: hidden;
+}
+
+.thumbnail:hover{
+  transition: 0.25s opacity linear;
+  opacity:1;
+}
+
+#bookButton{
+  border:2px solid seashell;
+  background-color: black;
+  color:seashell;
+  cursor: pointer;
+  width: 10%;
+  opacity: 1;
+  margin-bottom: 10px;
+}
+
+#bookButton:hover{
+  background-color: seashell;
+  color: black;
+  transition: 0.2s background linear, 0.2s color linear;
+}
+
+
+
+#featured{
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+#featured h2, #featured h4{
+  margin: 0;
+  padding: 10px;
+}
+
+#gallery{
+  width: 100%;
+  margin-top:5px;
+  .min-width: 1100px;
+}
+
+#gallery .thumbnail{
+  margin: 0 2px;
+}
+
+#header {
+  position: fixed;
+  height: 69px;
+  z-index: 1;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  align-items: center;
+  background-color: black;
+  top: 0px;
+  opacity: 0.75;
+}
+
+#logo {
+  height: 50px;
+  width: auto;
+  margin-left: 10px;
+  cursor:pointer;
+}
+
+#locations{
+  height: 500px;
+  background-image: url("./img-locations-background.jpg");
+  padding-top: 70px;
+}
+
+#locations .flex-container{
+  margin: auto;
+  width: 1100px;
+}
+
+#locations h2{
+  padding:10px;
+  margin: 0;
+}
+
+#about {
+  padding-top: 70px;
+  background-image: url("./IMG_1092.jpg");
+  height: 700px;
+  background-size:cover;
+  background-attachment: fixed;
+}
+
+#about .content{
+  opacity: 0.8;
+}
+
+#ourServices{
+  background-color: seashell;
+  color: black;
+  opacity: 0.825;
+}
+
+#services{
+  margin: 20px auto;
+  padding:50px 0;
+  width: 100%;
+  background-image: url("./00000471.JPG");
+  background-size: cover;
+  background-attachment:fixed;
+  background-color: #808080;
+  opacity: 0.9;
+}
+
+#services .flex-container{
+  flex-direction: column;
+}
+
+#services .item:hover {
+  background-color: seashell;
+  color: black;
+  transition: 0.2s color linear, 0.2s background linear;
+  opacity: 0.825;
+}
+
+#slideshow{
+  padding-top: 70px;
+}
+
+footer{
+  text-align: left;
+  padding-left: 20px;
+}
+
+nav{
+  text-align: right;
+  flex-grow: 1;
+  margin-right:10px;
+}
+
+span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+a{
+  color: seashell;
+  text-decoration: none;
+  font-size:22px;
+}
+
+a, h4, h3, h2{
+  margin: 0;
+  padding: 10px;
+}
+
+h4 a{
+  width: 100%;
+  padding: 11px 28px;
+  min-width: 500px;
+}
+
+/* Slideshow container */
+
+
+.slideshowPic {
+    display: none;
+}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 42%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index: 1;
+}
+/*
+.prevGal, .nextGal {
+  cursor: pointer;
+  position: absolute;
+  top: 94%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  z-index: 1;
+}
+*/
+.next, .nextGal {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev, .prevGal{
+  left:0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+  background-color: black;
+  opacity: 0.8;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/*Contact Page*/
+
+
+.form input, textarea{
+  background-color: #808080;
+  transition: background 0.35s ease-in-out;
+}
+
+.form input{
+  width: 200px;
+  height: 30px;
+  font-size: 18px;
+  margin:5px;
+}
+
+.form input{
+  transition: width 0.35s ease-in-out, height 0.35s ease-in-out;
+}
+
+.form #message{
+  width: 500px;
+  height: 200px;
+  resize:none;
+}
+
+.input:focus{
+  width: 400px;
+}
+
+input:focus{
+  height:40px;
+}
+
+textarea:focus, input:focus{
+  background-color:white;
+}
+
+#submit{
+  background-color: black;
+  color:seashell;
+  width:100px;
+  height: 40px;
+}
+
+#submit:focus{
+  height:40px;
+  width:100px;
+}
+
+#submit:hover{
+  background-color:seashell;
+  color:black;
+  cursor:pointer;
+  transition: 0.2s color linear, 0.2s background linear;
+}
+
+/*Prints Page*/
+
+#contactPrints{
+  padding-top:70px;
+}
+
+
+#featuredPrints img{
+  cursor: -moz-zoom-in;
+  cursor: -webkit-zoom-in;
+  cursor: zoom-in;
+}
+
+
+#zoomModal{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+#zoomContent{
+  background-color: #fefefe;
+  margin: 90px auto 60px auto;
+  padding:10px;
+  border: 1px solid #888;
+  width: 75%;
+}
+
+#zoomedImage{
+  width:1000px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    top:0;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*Pricing Page*/
+
+.price p{
+  width: 200px;
+
+}
+
+.price a{
+ padding: 2px 43px;
+}
+
+.price span{
+  width:1000px;
+  text-align: left;
+}
+
+.priceflex{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.priceflex .item .description{
+  float:right;
+  text-align: right;
+  padding-left: 100px;
+}
+
+.description{
+  font-size:30px;
+}
+
+.priceflex .item img{
+  width: 500px;
+  height:auto;
+}

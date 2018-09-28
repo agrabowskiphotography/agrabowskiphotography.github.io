@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>AG Photography</title>
+    <link href = "./style.css" type="text/css" rel = "stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC" rel="stylesheet">
+  </head>
+  <body>
+
+    <!-- HEADER -->
+    <header id = "header" class = "flex-container">
+      <a href ="./index.html"><img id = "logo" src = "./logo.png" alt = "logo"/></a>
+      <nav>
+        <span><a class = "nav" href = "./index.html#about">About</a></span>
+        <span><a class = "nav" href = "./index.html#featured">Special Offers</a></span>
+        <span><a class = "nav" href = "./index.html#services">Services</a></span>
+        <span><a class = "nav" href = "./prints.html">Order Prints</a></span>
+        <span><a class = "nav" href = "#contact">Contact Us</a></span>
+      </nav>
+    </header>
+
+    <!-- Main Content Container -->
+    <div class = "main">
+
+      <!-- Main Section -->
+      <div class = "flex-container">
+        <div class = "content" align = "center">
+          <h2>Book Us Now or Call for More Information</h2>
+          <img width = "100px" src = "./logo.png" alt = "AGP"/>
+        </div>
+        <div id = "form" class = "form">
+          <form id = "usrform" action="mailto:austin.s.grabowski@gmail.com" method="post" enctype="text/plain">
+
+            <div class = "input" align="left">
+              First Name:<br>
+              <input class = "input" type="text" name="firstname" placeholder="First Name"><br>
+            </div>
+
+            <div class = "input" align="left">
+              Last name:<br>
+              <input class = "input" type="text" name="lastname" placeholder="Last Name"><br>
+            </div>
+
+            <div class = "input" align="left">
+              Email:<br>
+              <input class = "input" type="email" name="email" placeholder="someone@email.com"><br>
+            </div>
+
+            <div align="left">
+              Phone:<br>
+              <input type="tel" name="usrtel" placeholder="(XXX)-XXX-XXXX" align="right"><br>
+            </div>
+            Message:<br>
+            <textarea form="usrform" id = "message" type="text" name="message" placeholder="Your Message"></textarea><br>
+            <input id ="submit" type="submit" name="submit" value = "Submit">
+        </div>
+      </div>
+
+
+      <!-- Contact Section -->
+      <div id = "contact">
+          <h2>AG Photography</h2>
+          <h2>Contact Us</h2>
+          <h5>Email: austin.s.grabowski@gmail.com</h5>
+          <h5>Phone: 631-482-4029</h5>
+          <h5>Set Up an Appointment Today!</h5>
+      </div>
+    </div>
+    <!-- Footer Section -->
+    <footer>
+      <h5>AG Photography 2018</h5>
+    </footer>
+  </body>
+  <script type="text/javascript" src = "./script.js"></script>
+  </html>
